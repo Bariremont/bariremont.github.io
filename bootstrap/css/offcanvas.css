@@ -70,6 +70,11 @@ footer {
 
 .with-border {
     border: 1px solid #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    background-color: #eeeeee;
+
 }
 
 .middle-card {
@@ -85,6 +90,20 @@ footer {
     padding: 40px 0 30px;
 }
 
+.object-title {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+.bottom-space {
+    margin-bottom: 30px;
+}
+
 .bg {
     background-image: url("../../images/bg.png");
+}
+
+.jumbotron {
+    border-radius: 0 !important;
+    border: 1px solid #ccc;
 }
