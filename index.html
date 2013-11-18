@@ -10,10 +10,10 @@
     <title>Ремонт от Бари - Москва - 8 (925) 251-18-15</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./bootstrap/css/offcanvas.css" rel="stylesheet">
+    <link href="bootstrap/css/offcanvas.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 
@@ -78,7 +78,7 @@
                         <div class="inner">
                             <img src="images/objects/dinamo/preview/0.jpg" alt=""/>
                             <div class="caption">
-                                <button class="btn btn-more">Подробнее</button>
+                                <button class="btn btn-more fancybox">Подробнее</button>
                             </div>
                         </div>
                         <p class="object-title">Квартира на м. Динамо</p>
@@ -161,8 +161,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/js/jquery-1.10.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script></body></html>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/fancybox/jquery.fancybox-thumbs.js"></script>
+    <script src="js/bootstrap.min.js"></script></body></html>
     <script>
         $(".inner").hover(
                 function() {
@@ -172,4 +174,41 @@
                     $(this).find('.caption').fadeOut(200);
                 }
         );
+
+        $(".fancybox").click(function() {
+
+            $.fancybox.open([
+                {
+                    href : 'http://fancyapps.com/fancybox/demo/1_b.jpg',
+                    title : 'manual 1st title'
+                },
+                {
+                    href : 'http://fancyapps.com/fancybox/demo/2_b.jpg',
+                    title : '2nd title'
+                },
+                {
+                    href : 'http://fancyapps.com/fancybox/demo/3_b.jpg',
+                    title : '3rd title'
+                }
+            ], {
+                nextEffect : 'none',
+                prevEffect : 'none',
+                padding    : 0,
+                helpers    : {
+                    title : {
+                        type: 'over'
+                    },
+                    thumbs : {
+                        width  : 75,
+                        height : 50,
+                        source : function( item ) {
+                            return item.href.replace('_b.jpg', '_s.jpg');
+                        }
+                    }
+                }
+            });
+
+            return false;
+        });
+
     </script>
