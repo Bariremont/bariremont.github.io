@@ -72,6 +72,7 @@ footer {
     border: 1px solid #ccc;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 15px;
     overflow: hidden;
     background-color: #eeeeee;
 
@@ -86,12 +87,8 @@ footer {
     margin-top: 15px;
 }
 
-.object-description {
-    padding: 40px 0 30px;
-}
 
 .object-title {
-    font-weight: bold;
     text-align: center;
     margin: 15px;
 }
@@ -99,11 +96,22 @@ footer {
     margin-bottom: 30px;
 }
 
+.logo {
+    margin-top: -28px !important;
+    margin-right: 20px !important;
+}
+
 .bg {
-    background-image: url("../../images/bg.png");
+    background-color: #eee;
 }
 
 .jumbotron {
-    border-radius: 0 !important;
-    border: 1px solid #ccc;
+}
+
+.section-title {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.section-title h1 {
+    margin-bottom: 10px;
 }
