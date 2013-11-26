@@ -80,9 +80,9 @@
                 </div>
                 <div class="col-6 col-sm-6 col-lg-4 bottom-space">
                     <div class="with-border">
-                        <a href="#" class="fancybox">
+                        <a href="#" class="fancybox" data-from="1" data-to="6" data-prefix="images/objects/dinamo">
                         <div class="inner">
-                            <img src="images/objects/dinamo/0.preview.jpg" alt=""/>
+                            <img src="images/objects/dinamo/1.preview.jpg" alt=""/>
                             <div class="caption">
                                 <button class="btn btn-more">Подробнее</button>
                             </div>
@@ -93,9 +93,9 @@
                 </div><!--/span-->
                 <div class="col-6 col-sm-6 col-lg-4 bottom-space">
                     <div class="with-border">
-                        <a href="#" class="fancybox">
+                        <a href="#" class="fancybox" data-from="1" data-to="52" data-prefix="images/objects/krylatskoe">
                         <div class="inner">
-                            <img src="images/objects/krylatskoe/0.preview.jpg" alt=""/>
+                            <img src="images/objects/krylatskoe/1.preview.jpg" alt=""/>
                             <div class="caption">
                                 <button class="btn btn-more">Подробнее</button>
                             </div>
@@ -106,9 +106,9 @@
                 </div><!--/span-->
                 <div class="col-6 col-sm-6 col-lg-4 bottom-space">
                     <div class="with-border">
-                        <a href="#" class="fancybox">
+                        <a href="#" class="fancybox" data-from="1" data-to="10" data-prefix="images/objects/nagatinskaya">
                         <div class="inner">
-                            <img src="images/objects/nagantiskaya/0.preview.jpg" alt=""/>
+                            <img src="images/objects/nagatinskaya/1.preview.jpg" alt=""/>
                             <div class="caption">
                                 <button class="btn btn-more">Подробнее</button>
                             </div>
@@ -119,9 +119,9 @@
                 </div><!--/span-->
                 <div class="col-6 col-sm-6 col-lg-4 bottom-space">
                     <div class="with-border">
-                        <a href="#" class="fancybox">
+                        <a href="#" class="fancybox" data-from="1" data-to="46" data-prefix="images/objects/prospekt_vernadskogo">
                         <div class="inner">
-                            <img src="images/objects/prospekt_vernadskogo/0.preview.jpg" alt=""/>
+                            <img src="images/objects/prospekt_vernadskogo/1.preview.jpg" alt=""/>
                             <div class="caption">
                                 <button class="btn btn-more">Подробнее</button>
                             </div>
@@ -132,9 +132,9 @@
                 </div><!--/span-->
                 <div class="col-6 col-sm-6 col-lg-4 bottom-space">
                     <div class="with-border">
-                        <a href="#" class="fancybox">
+                        <a href="#" class="fancybox" data-from="1" data-to="10" data-prefix="images/objects/nahabino">
                         <div class="inner">
-                            <img src="images/objects/nahabino/0.preview.jpg" alt=""/>
+                            <img src="images/objects/nahabino/1.preview.jpg" alt=""/>
                             <div class="caption">
                                 <button class="btn btn-more">Подробнее</button>
                             </div>
@@ -145,9 +145,9 @@
                 </div><!--/span-->
                 <div class="col-6 col-sm-6 col-lg-4 bottom-space">
                     <div class="with-border">
-                        <a href="#" class="fancybox" data-from="0" data-to="7" data-prefix="images/objects/khimki">
+                        <a href="#" class="fancybox" data-from="1" data-to="13" data-prefix="images/objects/khimki">
                             <div class="inner">
-                                <img src="images/objects/khimki/0.preview.jpg" alt=""/>
+                                <img src="images/objects/khimki/1.preview.jpg" alt=""/>
                                 <div class="caption">
                                     <button class="btn btn-more">Подробнее</button>
                                 </div>
@@ -158,9 +158,9 @@
                 </div><!--/span-->
                 <div class="col-6 col-sm-6 col-lg-4 bottom-space">
                     <div class="with-border">
-                        <a href="#" class="fancybox">
+                        <a href="#" class="fancybox" data-from="1" data-to="9" data-prefix="images/objects/ignatovo">
                             <div class="inner">
-                                <img src="images/objects/ignatovo/0.preview.jpg" alt=""/>
+                                <img src="images/objects/ignatovo/1.preview.jpg" alt=""/>
                                 <div class="caption">
                                     <button class="btn btn-more">Подробнее</button>
                                 </div>
@@ -202,7 +202,7 @@
             console.log(to);
             console.log(prefix);
             var thumbs = [];
-            for (var i = from; i < to; i++) {
+            for (var i = from; i <= to; i++) {
                 thumbs.push(prefix + "/" + i + ".jpg")
             }
             console.log(thumbs);
