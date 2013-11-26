@@ -198,14 +198,10 @@
             var from = $(this).data('from');
             var to = $(this).data('to');
             var prefix = $(this).data('prefix');
-            console.log(from);
-            console.log(to);
-            console.log(prefix);
             var thumbs = [];
             for (var i = from; i <= to; i++) {
                 thumbs.push(prefix + "/" + i + ".jpg")
             }
-            console.log(thumbs);
 
             $.fancybox.open(thumbs, {
                 nextEffect : 'none',
