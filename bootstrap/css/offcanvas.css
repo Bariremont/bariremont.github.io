@@ -124,13 +124,13 @@ body {
 }
 
 .section-title span {
-    background-color: yellow;
+    background-color: #DEC594;
     padding: 0 10px;
 
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-    background-color: yellow;
+    background-color: #DEC594;
     color: black;
 }
 .caption {
@@ -152,5 +152,5 @@ body {
 
 .btn-more {
     border-radius: 0;
-    background-color: yellow;
+    background-color: #DEC594;
 }
