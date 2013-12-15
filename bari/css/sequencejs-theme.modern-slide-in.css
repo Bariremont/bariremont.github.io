@@ -185,7 +185,7 @@
 	background-color: #2f343a;
 	z-index:1;
 	color:#fff;
-	font-family: 'OswaldBook', Arial, Helvetica, sans-serif;
+	font-family: 'Cuprum', Arial, Helvetica, sans-serif;
 	
 	-webkit-transition-duration: 0.01s !important;
 	-moz-transition-duration: 0.01s !important;
@@ -301,7 +301,7 @@
 	/*line-height:44px;*/
 	height:44px;
 	font-size:30px;
-	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+	font-family: 'Cuprum', Arial, Helvetica, sans-serif;
 	display:inline-block;
 		padding-top: 11px;
 	padding-right: 15px;

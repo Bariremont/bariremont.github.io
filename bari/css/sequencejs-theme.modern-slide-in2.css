@@ -110,7 +110,7 @@
 }
 #sequence-theme h2 {
 	/*color: #535961;*/
-	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+	font-family: 'Cuprum', Arial, Helvetica, sans-serif;
 
 	font-weight: bold;
 	font-size:34px;
@@ -119,7 +119,7 @@
 }
 #sequence-theme h3 {
   	color: #ffc000;
-	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+	font-family: 'Cuprum', Arial, Helvetica, sans-serif;
 	font-weight:lighter;
 	font-size:25px;
 	line-height:25px;
@@ -312,7 +312,7 @@
 	color:#ffc000;
 	font-weight:normal;
 	top: 90%;
-	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+	font-family: 'Cuprum', Arial, Helvetica, sans-serif;
 }
 
 
