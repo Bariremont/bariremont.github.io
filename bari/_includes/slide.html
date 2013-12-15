@@ -1,0 +1,14 @@
+<li style="background:url({{ include.bg }}) no-repeat;background-position:50% 0">
+<div class="container">
+    <div class="sixteen columns contain">
+
+        <h2 data-toptitle="36%">{{ include.top }}</h2>
+        <p data-bottomtext="39%">{{ include.bottom }}</p>
+        {% if include.item %}
+             <img src="{{ include.item }}" class="item" alt="slide-item"  data-topimage="21%"/>
+        {% endif %}
+
+    </div>
+</div><!-- End Container -->
+</li><!-- End item -->
+
